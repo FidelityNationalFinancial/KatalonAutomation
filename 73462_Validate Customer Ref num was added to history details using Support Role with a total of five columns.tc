@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>73462_Validate Customer Ref num was added to history details using Support Role with a total of five columns</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>fddf99e3-bfd7-4081-92cd-9374cb109439</testCaseGuid>
-</TestCaseEntity>
