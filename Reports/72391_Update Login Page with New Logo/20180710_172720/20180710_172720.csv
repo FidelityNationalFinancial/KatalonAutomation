@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+72391_Update Login Page with New Logo,Firefox 61.0,,2018-07-10 17:27:23,2018-07-10 17:27:37,13.877s,PASSED
+,,,,,,
+Test Cases/72391_Update Login Page with New Logo/73417_73418_Verify Invoking of TPP URL will display new TPP login page,Firefox 61.0,,2018-07-10 17:27:24,2018-07-10 17:27:37,13.218s,PASSED
+openBrowser,Firefox 61.0,Launch Browser,2018-07-10 17:27:24,2018-07-10 17:27:30,5.591s,PASSED
+navigateToUrl,Firefox 61.0,Navigate to TPP URL,2018-07-10 17:27:30,2018-07-10 17:27:34,4.054s,PASSED
+waitForElementPresent,Firefox 61.0,Wait for Element <LOG IN> to be present,2018-07-10 17:27:34,2018-07-10 17:27:34,0.145s,PASSED
+takeScreenshot,Firefox 61.0,Take Snapshot 73417_1,2018-07-10 17:27:34,2018-07-10 17:27:34,0.220s,PASSED
+click,Firefox 61.0,Click on <LOG IN> link,2018-07-10 17:27:34,2018-07-10 17:27:36,1.863s,PASSED
+verifyElementText,Firefox 61.0,"Verify Text \""Welcome to FNTG Agency Suite of Application\"" is present on the page after load",2018-07-10 17:27:36,2018-07-10 17:27:36,0.067s,PASSED
+takeScreenshot,Firefox 61.0,Take Snapshot 73417_2,2018-07-10 17:27:36,2018-07-10 17:27:36,0.111s,PASSED
+closeBrowser,Firefox 61.0,Close Browser,2018-07-10 17:27:36,2018-07-10 17:27:37,0.410s,PASSED

@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+72391_Update Login Page with New Logo,Chrome 67.0.3396.99,,2018-07-10 17:24:16,2018-07-10 17:24:39,23.010s,PASSED
+,,,,,,
+Test Cases/72391_Update Login Page with New Logo/73417_73418_Verify Invoking of TPP URL will display new TPP login page,Chrome 67.0.3396.99,,2018-07-10 17:24:17,2018-07-10 17:24:26,9.119s,PASSED
+openBrowser,Chrome 67.0.3396.99,Launch Browser,2018-07-10 17:24:17,2018-07-10 17:24:21,3.618s,PASSED
+navigateToUrl,Chrome 67.0.3396.99,Navigate to TPP URL,2018-07-10 17:24:21,2018-07-10 17:24:22,1.342s,PASSED
+waitForElementPresent,Chrome 67.0.3396.99,Wait for Element <LOG IN> to be present,2018-07-10 17:24:22,2018-07-10 17:24:22,0.102s,PASSED
+takeScreenshot,Chrome 67.0.3396.99,Take Snapshot 73417_1,2018-07-10 17:24:22,2018-07-10 17:24:23,0.321s,PASSED
+click,Chrome 67.0.3396.99,Click on <LOG IN> link,2018-07-10 17:24:23,2018-07-10 17:24:25,2.025s,PASSED
+verifyElementText,Chrome 67.0.3396.99,"Verify Text \""Welcome to FNTG Agency Suite of Application\"" is present on the page after load",2018-07-10 17:24:25,2018-07-10 17:24:25,0.103s,PASSED
+takeScreenshot,Chrome 67.0.3396.99,Take Snapshot 73417_2,2018-07-10 17:24:25,2018-07-10 17:24:25,0.316s,PASSED
+closeBrowser,Chrome 67.0.3396.99,Close Browser,2018-07-10 17:24:25,2018-07-10 17:24:26,0.831s,PASSED
+,,,,,,
+"Test Cases/72391_Update Login Page with New Logo/73419_Verify 4 hover feature - Login, Easy, Secure and Flexible",Chrome 67.0.3396.99,,2018-07-10 17:24:26,2018-07-10 17:24:34,7.968s,PASSED
+openBrowser,Chrome 67.0.3396.99,Launch Browser,2018-07-10 17:24:26,2018-07-10 17:24:28,2.229s,PASSED
+navigateToUrl,Chrome 67.0.3396.99,Navigate to TPP URL,2018-07-10 17:24:28,2018-07-10 17:24:31,2.106s,PASSED
+waitForElementPresent,Chrome 67.0.3396.99,Wait for Element <LOG IN> to be present,2018-07-10 17:24:31,2018-07-10 17:24:31,0.036s,PASSED
+maximizeWindow,Chrome 67.0.3396.99,Maximize Window,2018-07-10 17:24:31,2018-07-10 17:24:32,1.157s,PASSED
+mouseOver,Chrome 67.0.3396.99,Mouse Over to Easy Image,2018-07-10 17:24:32,2018-07-10 17:24:32,0.100s,PASSED
+takeScreenshot,Chrome 67.0.3396.99,Take Snapshot 73417_1,2018-07-10 17:24:32,2018-07-10 17:24:32,0.405s,PASSED
+mouseOver,Chrome 67.0.3396.99,Mouse Over to Flexible Image\r\n,2018-07-10 17:24:32,2018-07-10 17:24:32,0.049s,PASSED
+takeScreenshot,Chrome 67.0.3396.99,Take Snapshot 73417_1,2018-07-10 17:24:32,2018-07-10 17:24:33,0.353s,PASSED
+mouseOver,Chrome 67.0.3396.99,Mouse Over to Secure Image,2018-07-10 17:24:33,2018-07-10 17:24:33,0.049s,PASSED
+takeScreenshot,Chrome 67.0.3396.99,Take Snapshot 73417_1,2018-07-10 17:24:33,2018-07-10 17:24:33,0.346s,PASSED
+closeBrowser,Chrome 67.0.3396.99,Close Browser,2018-07-10 17:24:33,2018-07-10 17:24:34,0.787s,PASSED
+,,,,,,
+"Test Cases/72391_Update Login Page with New Logo/73420_Verify Links on TPP Screen - AboutUs, TermsofUs, Privacy, ForgotPass, Register",Chrome 67.0.3396.99,,2018-07-10 17:24:34,2018-07-10 17:24:39,5.360s,PASSED
+openBrowser,Chrome 67.0.3396.99,Launch Browser,2018-07-10 17:24:34,2018-07-10 17:24:36,2.237s,PASSED
+navigateToUrl,Chrome 67.0.3396.99,Navigate to TPP URL,2018-07-10 17:24:36,2018-07-10 17:24:38,1.249s,PASSED
+waitForElementPresent,Chrome 67.0.3396.99,Wait for <Log In> button to be present,2018-07-10 17:24:38,2018-07-10 17:24:38,0.049s,PASSED
+verifyElementClickable,Chrome 67.0.3396.99,Validate if <About Us> Link is Clickable,2018-07-10 17:24:38,2018-07-10 17:24:38,0.058s,PASSED
+verifyElementAttributeValue,Chrome 67.0.3396.99,Validate that <About Us> Link has href attribute of: http://www.fnf.com/pages/about-us.aspx,2018-07-10 17:24:38,2018-07-10 17:24:38,0.061s,PASSED
+verifyElementClickable,Chrome 67.0.3396.99,Validate that <Register> button is clickable,2018-07-10 17:24:38,2018-07-10 17:24:38,0.049s,PASSED
+verifyElementAttributeValue,Chrome 67.0.3396.99,Validate that <Register> Link has href attribute of: https://titlepayplus-int.fnf.com/Home/Register,2018-07-10 17:24:38,2018-07-10 17:24:38,0.038s,PASSED
+verifyElementClickable,Chrome 67.0.3396.99,Validate that <Privacy Notice> is Clickable\r\n,2018-07-10 17:24:38,2018-07-10 17:24:38,0.065s,PASSED
+verifyElementAttributeValue,Chrome 67.0.3396.99,Validate that <Privacy Notice> has href attribute of: http://www.fnf.com/privacy,2018-07-10 17:24:38,2018-07-10 17:24:38,0.045s,PASSED
+verifyElementClickable,Chrome 67.0.3396.99,Validate <Terms of Use> is Clickable,2018-07-10 17:24:38,2018-07-10 17:24:38,0.061s,PASSED
+verifyElementAttributeValue,Chrome 67.0.3396.99,Validate that <Terms of Use> has href attribute of: http://www.fnf.com/termsofuse,2018-07-10 17:24:38,2018-07-10 17:24:38,0.032s,PASSED
+takeScreenshot,Chrome 67.0.3396.99,Take a Snapshot 73420_1.jpg,2018-07-10 17:24:38,2018-07-10 17:24:38,0.263s,PASSED
+closeBrowser,Chrome 67.0.3396.99,Close Browser,2018-07-10 17:24:38,2018-07-10 17:24:39,0.903s,PASSED

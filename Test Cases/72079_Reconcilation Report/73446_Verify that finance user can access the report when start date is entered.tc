@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that finance user can access the report when only start date is entered</description>
+   <name>73446_Verify that finance user can access the report when start date is entered</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2954ae67-8e09-4e90-aba8-100e02a4c08d</testCaseGuid>
+</TestCaseEntity>

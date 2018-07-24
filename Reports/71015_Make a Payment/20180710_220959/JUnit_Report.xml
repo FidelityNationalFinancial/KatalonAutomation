@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="71015_Make a Payment" time="30" tests="1" failures="0" errors="0">
+   <testsuite name="71015_Make a Payment" tests="1" failures="0" errors="0" time="30" timestamp="2018-07-10 22:10:01" hostname="Aileen.Villanueva - FNFCORPTECLP521.fnfglobal.local" id="Test Suites/71015_Make a Payment">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Aileen.Villanueva\\Katalon Studio\\TPP_Iteration18\\Reports\\71015_Make a Payment\\20180710_220959"/>
+         <property name="logFiles" value="C:\\Users\\Aileen.Villanueva\\Katalon Studio\\TPP_Iteration18\\Reports\\71015_Make a Payment\\20180710_220959\\execution0.log"/>
+         <property name="attachments" value="C:\\SCREENSHOTS\\71275_1.jpg, C:\\SCREENSHOTS\\71275_2.jpg, C:\\SCREENSHOTS\\71275_3.jpg"/>
+         <property name="hostName" value="Aileen.Villanueva - FNFCORPTECLP521.fnfglobal.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="10.36.200.250"/>
+         <property name="sessionId" value="e7c3a702f4fc64327311b3db8ebb4182"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/71015_Make Payment/71275_Verify Pay now button is clickable and user navigate to Payment screen" classname="Test Cases/71015_Make Payment/71275_Verify Pay now button is clickable and user navigate to Payment screen" status="PASSED">
+         <system-out><![CDATA[2018-07-10 22:10:02 - [TEST_CASE][PASSED] - Test Cases/71015_Make Payment/71275_Verify Pay now button is clickable and user navigate to Payment screen: Test Cases/71015_Make Payment/71275_Verify Pay now button is clickable and user navigate to Payment screen
+
+2018-07-10 22:10:03 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-10 22:10:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-10 22:10:06 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://titlepayplus-qa2.fnf.com/' successfully
+
+2018-07-10 22:10:09 - [MESSAGE][PASSED] - Navigate to 'https://titlepayplus-qa2.fnf.com/' successfully
+
+2018-07-10 22:10:09 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page_FNF - TitlePay Plus/a_Log In' is present
+
+2018-07-10 22:10:09 - [MESSAGE][PASSED] - Object 'Object Repository/Page_FNF - TitlePay Plus/a_Log In' is present
+
+2018-07-10 22:10:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_FNF - TitlePay Plus (Invoices)/a_Log In' is clicked on
+
+2018-07-10 22:10:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FNF - TitlePay Plus (Invoices)/a_Log In' is clicked on
+
+2018-07-10 22:10:14 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page_FNTG Login/button_Log In' is present
+
+2018-07-10 22:10:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_FNTG Login/button_Log In' is present
+
+2018-07-10 22:10:14 - [TEST_STEP][PASSED] - setText: Text 'Tonya@tpp.com' is set on object 'Object Repository/Page_FNTG Login/input_username'
+
+2018-07-10 22:10:15 - [MESSAGE][PASSED] - Text 'Tonya@tpp.com' is set on object 'Object Repository/Page_FNTG Login/input_username'
+
+2018-07-10 22:10:15 - [TEST_STEP][PASSED] - setText: Text 'Agent001' is set on object 'Object Repository/Page_FNTG Login/input_password'
+
+2018-07-10 22:10:15 - [MESSAGE][PASSED] - Text 'Agent001' is set on object 'Object Repository/Page_FNTG Login/input_password'
+
+2018-07-10 22:10:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_FNTG Login/button_Log In' is clicked on
+
+2018-07-10 22:10:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FNTG Login/button_Log In' is clicked on
+
+2018-07-10 22:10:15 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_FNF - TitlePay Plus (Invoices)/button_Pay Now' is present
+
+2018-07-10 22:10:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_FNF - TitlePay Plus (Invoices)/button_Pay Now' is present
+
+2018-07-10 22:10:28 - [TEST_STEP][PASSED] - verifyElementNotClickable: Object 'Object Repository/Page_FNF - TitlePay Plus (Invoices)/button_Pay Now' is NOT clickable
+
+2018-07-10 22:10:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_FNF - TitlePay Plus (Invoices)/button_Pay Now' is NOT clickable
+
+2018-07-10 22:10:28 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-10 22:10:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\SCREENSHOTS\\71275_1.jpg]]
+
+2018-07-10 22:10:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_FNF - TitlePay Plus (Invoices)/first_invoice_on_table' is clicked on
+
+2018-07-10 22:10:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FNF - TitlePay Plus (Invoices)/first_invoice_on_table' is clicked on
+
+2018-07-10 22:10:30 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_FNF - TitlePay Plus (Invoices)/button_Pay Now' is clickable
+
+2018-07-10 22:10:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_FNF - TitlePay Plus (Invoices)/button_Pay Now' is clickable
+
+2018-07-10 22:10:30 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-10 22:10:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\SCREENSHOTS\\71275_2.jpg]]
+
+2018-07-10 22:10:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_FNF - TitlePay Plus (Invoices)/first_invoice_on_table' is clicked on
+
+2018-07-10 22:10:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FNF - TitlePay Plus (Invoices)/first_invoice_on_table' is clicked on
+
+2018-07-10 22:10:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_FNF - TitlePay Plus (Invoices)/button_Pay Now' is clicked on
+
+2018-07-10 22:10:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FNF - TitlePay Plus (Invoices)/button_Pay Now' is clicked on
+
+2018-07-10 22:10:31 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page_FNF - TitlePay Plus (Payment Screen)/iframe_ifmFTNI' is present
+
+2018-07-10 22:10:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_FNF - TitlePay Plus (Payment Screen)/iframe_ifmFTNI' is present
+
+2018-07-10 22:10:31 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-10 22:10:31 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\SCREENSHOTS\\71275_3.jpg]]
+
+2018-07-10 22:10:31 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-10 22:10:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-10 22:10:01 - [TEST_SUITE][PASSED] - 71015_Make a Payment: Test Cases/71015_Make Payment/71275_Verify Pay now button is clickable and user navigate to Payment screen]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

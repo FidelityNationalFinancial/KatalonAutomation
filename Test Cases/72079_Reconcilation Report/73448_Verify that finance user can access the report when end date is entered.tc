@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>73448_Verify that finance user can access the report when end date is entered</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>65bb25c9-5425-4024-99f7-67ee5500b6ea</testCaseGuid>
+</TestCaseEntity>

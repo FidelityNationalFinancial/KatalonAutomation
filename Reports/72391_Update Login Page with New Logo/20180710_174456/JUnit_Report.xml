@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="72391_Update Login Page with New Logo" time="24" tests="3" failures="0" errors="0">
+   <testsuite name="72391_Update Login Page with New Logo" tests="3" failures="0" errors="0" time="24" timestamp="2018-07-10 17:44:58" hostname="Aileen.Villanueva - FNFCORPTECLP521.fnfglobal.local" id="Test Suites/72391_Update Login Page with New Logo">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Aileen.Villanueva\\Katalon Studio\\TPP_Iteration18\\Reports\\72391_Update Login Page with New Logo\\20180710_174456"/>
+         <property name="logFiles" value="C:\\Users\\Aileen.Villanueva\\Katalon Studio\\TPP_Iteration18\\Reports\\72391_Update Login Page with New Logo\\20180710_174456\\execution0.log"/>
+         <property name="attachments" value="C:\\SCREENSHOTS\\73417_1.jpg, C:\\SCREENSHOTS\\73417_2.jpg, C:\\SCREENSHOTS\\73419_1.jpg, C:\\SCREENSHOTS\\73419_2.jpg, C:\\SCREENSHOTS\\73419_3.jpg, C:\\SCREENSHOTS\\73420_1.jpg"/>
+         <property name="hostName" value="Aileen.Villanueva - FNFCORPTECLP521.fnfglobal.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="10.54.4.184"/>
+         <property name="sessionId" value="19657c7f5902facdaa24f45896f9603d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/72391_Update Login Page with New Logo/73417_73418_Verify Invoking of TPP URL will display new TPP login page" classname="Test Cases/72391_Update Login Page with New Logo/73417_73418_Verify Invoking of TPP URL will display new TPP login page" status="PASSED">
+         <system-out><![CDATA[2018-07-10 17:44:59 - [TEST_CASE][PASSED] - Test Cases/72391_Update Login Page with New Logo/73417_73418_Verify Invoking of TPP URL will display new TPP login page: Test Cases/72391_Update Login Page with New Logo/73417_73418_Verify Invoking of TPP URL will display new TPP login page
+
+2018-07-10 17:44:59 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-10 17:45:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-10 17:45:03 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://titlepayplus-int.fnf.com/' successfully
+
+2018-07-10 17:45:04 - [MESSAGE][PASSED] - Navigate to 'https://titlepayplus-int.fnf.com/' successfully
+
+2018-07-10 17:45:04 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page_FNF - TitlePay Plus/a_Log In' is present
+
+2018-07-10 17:45:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_FNF - TitlePay Plus/a_Log In' is present
+
+2018-07-10 17:45:04 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-10 17:45:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\SCREENSHOTS\\73417_1.jpg]]
+
+2018-07-10 17:45:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_FNF - TitlePay Plus/a_Log In' is clicked on
+
+2018-07-10 17:45:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FNF - TitlePay Plus/a_Log In' is clicked on
+
+2018-07-10 17:45:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_FNTG Login/h3_Welcome to the FNTG Agency' are matched.
+
+2018-07-10 17:45:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_FNTG Login/h3_Welcome to the FNTG Agency' are matched.
+
+2018-07-10 17:45:07 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-10 17:45:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\SCREENSHOTS\\73417_2.jpg]]
+
+2018-07-10 17:45:07 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-10 17:45:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/72391_Update Login Page with New Logo/73419_Verify 4 hover feature - Login, Easy, Secure and Flexible" classname="Test Cases/72391_Update Login Page with New Logo/73419_Verify 4 hover feature - Login, Easy, Secure and Flexible" status="PASSED">
+         <system-out><![CDATA[2018-07-10 17:45:08 - [TEST_CASE][PASSED] - Test Cases/72391_Update Login Page with New Logo/73419_Verify 4 hover feature - Login, Easy, Secure and Flexible: Test Cases/72391_Update Login Page with New Logo/73419_Verify 4 hover feature - Login, Easy, Secure and Flexible
+
+2018-07-10 17:45:09 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-10 17:45:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-10 17:45:11 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://titlepayplus-int.fnf.com/' successfully
+
+2018-07-10 17:45:13 - [MESSAGE][PASSED] - Navigate to 'https://titlepayplus-int.fnf.com/' successfully
+
+2018-07-10 17:45:13 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page_FNF - TitlePay Plus/a_Log In' is present
+
+2018-07-10 17:45:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_FNF - TitlePay Plus/a_Log In' is present
+
+2018-07-10 17:45:13 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-10 17:45:15 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-10 17:45:15 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page_FNF - TitlePay Plus/Easy Image' is hovered
+
+2018-07-10 17:45:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FNF - TitlePay Plus/Easy Image' is hovered
+
+2018-07-10 17:45:15 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-10 17:45:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\SCREENSHOTS\\73419_1.jpg]]
+
+2018-07-10 17:45:15 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page_FNF - TitlePay Plus/Flexible Image' is hovered
+
+2018-07-10 17:45:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FNF - TitlePay Plus/Flexible Image' is hovered
+
+2018-07-10 17:45:15 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-10 17:45:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\SCREENSHOTS\\73419_2.jpg]]
+
+2018-07-10 17:45:15 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page_FNF - TitlePay Plus/Secure Image' is hovered
+
+2018-07-10 17:45:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FNF - TitlePay Plus/Secure Image' is hovered
+
+2018-07-10 17:45:15 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-10 17:45:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\SCREENSHOTS\\73419_3.jpg]]
+
+2018-07-10 17:45:16 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-10 17:45:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/72391_Update Login Page with New Logo/73420_Verify Links on TPP Screen - AboutUs, TermsofUs, Privacy, ForgotPass, Register" classname="Test Cases/72391_Update Login Page with New Logo/73420_Verify Links on TPP Screen - AboutUs, TermsofUs, Privacy, ForgotPass, Register" status="PASSED">
+         <system-out><![CDATA[2018-07-10 17:45:17 - [TEST_CASE][PASSED] - Test Cases/72391_Update Login Page with New Logo/73420_Verify Links on TPP Screen - AboutUs, TermsofUs, Privacy, ForgotPass, Register: Test Cases/72391_Update Login Page with New Logo/73420_Verify Links on TPP Screen - AboutUs, TermsofUs, Privacy, ForgotPass, Register
+
+2018-07-10 17:45:17 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-10 17:45:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-10 17:45:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://titlepayplus-int.fnf.com/' successfully
+
+2018-07-10 17:45:21 - [MESSAGE][PASSED] - Navigate to 'https://titlepayplus-int.fnf.com/' successfully
+
+2018-07-10 17:45:21 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page_FNF - TitlePay Plus/a_Log In' is present
+
+2018-07-10 17:45:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_FNF - TitlePay Plus/a_Log In' is present
+
+2018-07-10 17:45:21 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_FNF - TitlePay Plus/a_About Us' is clickable
+
+2018-07-10 17:45:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_FNF - TitlePay Plus/a_About Us' is clickable
+
+2018-07-10 17:45:21 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Page_FNF - TitlePay Plus/a_About Us' has attribute 'href' with value 'http://www.fnf.com/pages/about-us.aspx'
+
+2018-07-10 17:45:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_FNF - TitlePay Plus/a_About Us' has attribute 'href' with value 'http://www.fnf.com/pages/about-us.aspx'
+
+2018-07-10 17:45:21 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_FNF - TitlePay Plus/a_Register' is clickable
+
+2018-07-10 17:45:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_FNF - TitlePay Plus/a_Register' is clickable
+
+2018-07-10 17:45:21 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Page_FNF - TitlePay Plus/a_Register' has attribute 'href' with value 'https://titlepayplus-int.fnf.com/Home/Register'
+
+2018-07-10 17:45:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_FNF - TitlePay Plus/a_Register' has attribute 'href' with value 'https://titlepayplus-int.fnf.com/Home/Register'
+
+2018-07-10 17:45:21 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_FNF - TitlePay Plus/a_FNF Privacy Notice' is clickable
+
+2018-07-10 17:45:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_FNF - TitlePay Plus/a_FNF Privacy Notice' is clickable
+
+2018-07-10 17:45:21 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Page_FNF - TitlePay Plus/a_FNF Privacy Notice' has attribute 'href' with value 'http://www.fnf.com/privacy'
+
+2018-07-10 17:45:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_FNF - TitlePay Plus/a_FNF Privacy Notice' has attribute 'href' with value 'http://www.fnf.com/privacy'
+
+2018-07-10 17:45:21 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_FNF - TitlePay Plus/a_FNF Terms of Use' is clickable
+
+2018-07-10 17:45:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_FNF - TitlePay Plus/a_FNF Terms of Use' is clickable
+
+2018-07-10 17:45:21 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Page_FNF - TitlePay Plus/a_FNF Terms of Use' has attribute 'href' with value 'http://www.fnf.com/termsofuse'
+
+2018-07-10 17:45:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_FNF - TitlePay Plus/a_FNF Terms of Use' has attribute 'href' with value 'http://www.fnf.com/termsofuse'
+
+2018-07-10 17:45:21 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-10 17:45:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\SCREENSHOTS\\73420_1.jpg]]
+
+2018-07-10 17:45:21 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-10 17:45:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-10 17:44:58 - [TEST_SUITE][PASSED] - 72391_Update Login Page with New Logo: Test Cases/72391_Update Login Page with New Logo/73420_Verify Links on TPP Screen - AboutUs, TermsofUs, Privacy, ForgotPass, Register]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

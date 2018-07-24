@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+71015_Make a Payment,Chrome 67.0.3396.99,,2018-07-10 22:39:19,2018-07-10 22:40:11,51.645s,PASSED
+,,,,,,
+Test Cases/71015_Make Payment/71275_Verify Pay now button is clickable and user navigate to Payment screen,Chrome 67.0.3396.99,,2018-07-10 22:39:20,2018-07-10 22:40:11,51.182s,PASSED
+openBrowser,Chrome 67.0.3396.99,Launch Browser,2018-07-10 22:39:20,2018-07-10 22:39:24,3.667s,PASSED
+navigateToUrl,Chrome 67.0.3396.99,Navigate to TPP URL ,2018-07-10 22:39:24,2018-07-10 22:39:27,2.880s,PASSED
+waitForElementPresent,Chrome 67.0.3396.99,Wait for element <Log In> Link,2018-07-10 22:39:27,2018-07-10 22:39:27,0.076s,PASSED
+click,Chrome 67.0.3396.99,Click <Login> Link,2018-07-10 22:39:27,2018-07-10 22:39:29,2.095s,PASSED
+waitForElementPresent,Chrome 67.0.3396.99,Wait for Button <Login>,2018-07-10 22:39:29,2018-07-10 22:39:29,0.032s,PASSED
+setText,Chrome 67.0.3396.99,Enter Username,2018-07-10 22:39:29,2018-07-10 22:39:29,0.232s,PASSED
+setText,Chrome 67.0.3396.99,Enter Password,2018-07-10 22:39:29,2018-07-10 22:39:30,0.204s,PASSED
+click,Chrome 67.0.3396.99,Click Button <Login>,2018-07-10 22:39:30,2018-07-10 22:39:30,0.081s,PASSED
+verifyElementPresent,Chrome 67.0.3396.99,Verify if <Pay Now> Button is Present,2018-07-10 22:39:30,2018-07-10 22:39:47,17.858s,PASSED
+click,Chrome 67.0.3396.99,Click <Pay Now> Button (no invoice selected>,2018-07-10 22:39:47,2018-07-10 22:39:48,0.089s,PASSED
+takeScreenshot,Chrome 67.0.3396.99,Take Screenshot 71275_1,2018-07-10 22:39:48,2018-07-10 22:39:48,0.312s,PASSED
+click,Chrome 67.0.3396.99,Select first record (invoice) from the grid,2018-07-10 22:39:48,2018-07-10 22:39:48,0.111s,PASSED
+verifyElementClickable,Chrome 67.0.3396.99,Verify <Pay Now> Button is Clickable,2018-07-10 22:39:48,2018-07-10 22:39:48,0.056s,PASSED
+takeScreenshot,Chrome 67.0.3396.99,Take Screenshot 71275_2,2018-07-10 22:39:48,2018-07-10 22:39:48,0.316s,PASSED
+click,Chrome 67.0.3396.99,Click <Pay Now> Button,2018-07-10 22:39:48,2018-07-10 22:39:49,1.005s,PASSED
+waitForElementPresent,Chrome 67.0.3396.99,Redirect to Payment Screen,2018-07-10 22:39:49,2018-07-10 22:40:10,20.650s,PASSED
+takeScreenshot,Chrome 67.0.3396.99,Take Screenshot 71275_3,2018-07-10 22:40:10,2018-07-10 22:40:10,0.275s,PASSED
+closeBrowser,Chrome 67.0.3396.99,Close Browser,2018-07-10 22:40:10,2018-07-10 22:40:11,0.817s,PASSED

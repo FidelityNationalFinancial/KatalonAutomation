@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>72974_Verify invoking of TPP URL will navigate to Auth0 hosted login page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>32488c89-0e7c-473f-92ea-6b60f32f9aba</testCaseGuid>
+</TestCaseEntity>

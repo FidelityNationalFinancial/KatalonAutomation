@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="72391_Update Login Page with New Logo" time="14" tests="1" failures="0" errors="0">
+   <testsuite name="72391_Update Login Page with New Logo" tests="1" failures="0" errors="0" time="14" timestamp="2018-07-10 15:42:42" hostname="Aileen.Villanueva - FNFCORPTECLP521.fnfglobal.local" id="Test Suites/72391_Update Login Page with New Logo">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Aileen.Villanueva\\Katalon Studio\\TPP_Iteration18\\Reports\\72391_Update Login Page with New Logo\\20180710_154240"/>
+         <property name="logFiles" value="C:\\Users\\Aileen.Villanueva\\Katalon Studio\\TPP_Iteration18\\Reports\\72391_Update Login Page with New Logo\\20180710_154240\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Aileen.Villanueva\\Katalon Studio\\TPP_Iteration18\\Reports\\SCREENSHOTS\\73417_1.jpg, C:\\Users\\Aileen.Villanueva\\Katalon Studio\\TPP_Iteration18\\Reports\\SCREENSHOTS\\73417_2.jpg"/>
+         <property name="hostName" value="Aileen.Villanueva - FNFCORPTECLP521.fnfglobal.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="10.54.4.184"/>
+         <property name="sessionId" value="428bdd6f41ee0bbe619e4c7878cafde4"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/73417_Verify Invoiking of TPP URL will display new TPP login page" classname="Test Cases/73417_Verify Invoiking of TPP URL will display new TPP login page" status="PASSED">
+         <system-out><![CDATA[2018-07-10 15:42:43 - [TEST_CASE][PASSED] - Test Cases/73417_Verify Invoiking of TPP URL will display new TPP login page: Test Cases/73417_Verify Invoiking of TPP URL will display new TPP login page
+
+2018-07-10 15:42:43 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-10 15:42:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-10 15:42:47 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://titlepayplus-int.fnf.com/' successfully
+
+2018-07-10 15:42:52 - [MESSAGE][PASSED] - Navigate to 'https://titlepayplus-int.fnf.com/' successfully
+
+2018-07-10 15:42:52 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page_FNF - TitlePay Plus/a_Log In' is present
+
+2018-07-10 15:42:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_FNF - TitlePay Plus/a_Log In' is present
+
+2018-07-10 15:42:52 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-10 15:42:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Aileen.Villanueva\\Katalon Studio\\TPP_Iteration18\\Reports\\SCREENSHOTS\\73417_1.jpg]]
+
+2018-07-10 15:42:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_FNF - TitlePay Plus/a_Log In' is clicked on
+
+2018-07-10 15:42:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FNF - TitlePay Plus/a_Log In' is clicked on
+
+2018-07-10 15:42:56 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_FNTG Login/h3_Welcome to the FNTG Agency' are matched.
+
+2018-07-10 15:42:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_FNTG Login/h3_Welcome to the FNTG Agency' are matched.
+
+2018-07-10 15:42:56 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-10 15:42:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Aileen.Villanueva\\Katalon Studio\\TPP_Iteration18\\Reports\\SCREENSHOTS\\73417_2.jpg]]
+
+2018-07-10 15:42:56 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-10 15:42:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-10 15:42:42 - [TEST_SUITE][PASSED] - 72391_Update Login Page with New Logo: Test Cases/73417_Verify Invoiking of TPP URL will display new TPP login page]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

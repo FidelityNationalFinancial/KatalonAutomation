@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="72391_Update Login Page with New Logo" time="30" tests="1" failures="0" errors="0">
+   <testsuite name="72391_Update Login Page with New Logo" tests="1" failures="0" errors="0" time="30" timestamp="2018-07-10 16:08:43" hostname="Aileen.Villanueva - FNFCORPTECLP521.fnfglobal.local" id="Test Suites/72391_Update Login Page with New Logo">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Aileen.Villanueva\\Katalon Studio\\TPP_Iteration18\\Reports\\72391_Update Login Page with New Logo\\20180710_160841"/>
+         <property name="logFiles" value="C:\\Users\\Aileen.Villanueva\\Katalon Studio\\TPP_Iteration18\\Reports\\72391_Update Login Page with New Logo\\20180710_160841\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Aileen.Villanueva\\Katalon Studio\\TPP_Iteration18\\Reports\\SCREENSHOTS\\73419_1.jpg"/>
+         <property name="hostName" value="Aileen.Villanueva - FNFCORPTECLP521.fnfglobal.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="10.54.4.184"/>
+         <property name="sessionId" value="a88a1d860e07717158ff7d7a75603263"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/73419_Verify 4 hover feature - Login, Easy, Secure and Flexible" classname="Test Cases/73419_Verify 4 hover feature - Login, Easy, Secure and Flexible" status="PASSED">
+         <system-out><![CDATA[2018-07-10 16:08:43 - [TEST_CASE][PASSED] - Test Cases/73419_Verify 4 hover feature - Login, Easy, Secure and Flexible: Test Cases/73419_Verify 4 hover feature - Login, Easy, Secure and Flexible
+
+2018-07-10 16:08:44 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-10 16:08:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-10 16:08:47 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://titlepayplus-int.fnf.com/' successfully
+
+2018-07-10 16:08:51 - [MESSAGE][PASSED] - Navigate to 'https://titlepayplus-int.fnf.com/' successfully
+
+2018-07-10 16:08:51 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page_FNF - TitlePay Plus/a_Log In' is present
+
+2018-07-10 16:08:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_FNF - TitlePay Plus/a_Log In' is present
+
+2018-07-10 16:08:51 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page_FNF - TitlePay Plus/img_card-img' is hovered
+
+2018-07-10 16:08:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FNF - TitlePay Plus/img_card-img' is hovered
+
+2018-07-10 16:08:51 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-10 16:08:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Aileen.Villanueva\\Katalon Studio\\TPP_Iteration18\\Reports\\SCREENSHOTS\\73419_1.jpg]]
+
+2018-07-10 16:08:51 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Page_FNF - TitlePay Plus/div_Securely input and store c' is not present
+
+2018-07-10 16:09:12 - [MESSAGE][WARNING] - Object 'Object Repository/Page_FNF - TitlePay Plus/div_Securely input and store c' is not present
+
+2018-07-10 16:09:12 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-10 16:09:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-10 16:08:43 - [TEST_SUITE][PASSED] - 72391_Update Login Page with New Logo: Test Cases/73419_Verify 4 hover feature - Login, Easy, Secure and Flexible]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

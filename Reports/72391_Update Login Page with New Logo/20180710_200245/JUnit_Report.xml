@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="72391_Update Login Page with New Logo" time="28" tests="2" failures="1" errors="0">
+   <testsuite name="72391_Update Login Page with New Logo" tests="2" failures="1" errors="0" time="28" timestamp="2018-07-10 20:02:50" hostname="Aileen.Villanueva - FNFCORPTECLP521.fnfglobal.local" id="Test Suites/72391_Update Login Page with New Logo">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Aileen.Villanueva\\Katalon Studio\\TPP_Iteration18\\Reports\\72391_Update Login Page with New Logo\\20180710_200245"/>
+         <property name="logFiles" value="C:\\Users\\Aileen.Villanueva\\Katalon Studio\\TPP_Iteration18\\Reports\\72391_Update Login Page with New Logo\\20180710_200245\\execution0.log"/>
+         <property name="attachments" value="C:\\SCREENSHOTS\\73417_1.jpg, C:\\SCREENSHOTS\\73417_2.jpg, C:\\SCREENSHOTS\\73419_1.jpg, C:\\SCREENSHOTS\\73419_2.jpg, C:\\SCREENSHOTS\\73419_3.jpg, C:\\Users\\Aileen.Villanueva\\Katalon Studio\\TPP_Iteration18\\Reports\\72391_Update Login Page with New Logo\\20180710_200245\\1531267396860.png, C:\\Users\\Aileen.Villanueva\\Katalon Studio\\TPP_Iteration18\\Reports\\72391_Update Login Page with New Logo\\20180710_200245\\1531267397229.png"/>
+         <property name="hostName" value="Aileen.Villanueva - FNFCORPTECLP521.fnfglobal.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="10.36.200.250"/>
+         <property name="sessionId" value="6d4f8693c641edc8ba150e7359c71a09"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/72391_Update Login Page with New Logo/73417_73418_Verify Invoking of TPP URL will display new TPP login page" classname="Test Cases/72391_Update Login Page with New Logo/73417_73418_Verify Invoking of TPP URL will display new TPP login page" status="PASSED">
+         <system-out><![CDATA[2018-07-10 20:02:51 - [TEST_CASE][PASSED] - Test Cases/72391_Update Login Page with New Logo/73417_73418_Verify Invoking of TPP URL will display new TPP login page: Test Cases/72391_Update Login Page with New Logo/73417_73418_Verify Invoking of TPP URL will display new TPP login page
+
+2018-07-10 20:02:51 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-10 20:02:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-10 20:02:56 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://titlepayplus-qa2.fnf.com/' successfully
+
+2018-07-10 20:02:59 - [MESSAGE][PASSED] - Navigate to 'https://titlepayplus-qa2.fnf.com/' successfully
+
+2018-07-10 20:02:59 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page_FNF - TitlePay Plus/a_Log In' is present
+
+2018-07-10 20:02:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_FNF - TitlePay Plus/a_Log In' is present
+
+2018-07-10 20:02:59 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-10 20:03:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\SCREENSHOTS\\73417_1.jpg]]
+
+2018-07-10 20:03:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_FNF - TitlePay Plus/a_Log In' is clicked on
+
+2018-07-10 20:03:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FNF - TitlePay Plus/a_Log In' is clicked on
+
+2018-07-10 20:03:02 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_FNTG Login/h3_Welcome to the FNTG Agency' are matched.
+
+2018-07-10 20:03:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_FNTG Login/h3_Welcome to the FNTG Agency' are matched.
+
+2018-07-10 20:03:02 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-10 20:03:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\SCREENSHOTS\\73417_2.jpg]]
+
+2018-07-10 20:03:02 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-10 20:03:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/72391_Update Login Page with New Logo/73419_Verify 4 hover feature - Login, Easy, Secure and Flexible" classname="Test Cases/72391_Update Login Page with New Logo/73419_Verify 4 hover feature - Login, Easy, Secure and Flexible" status="PASSED">
+         <system-out><![CDATA[2018-07-10 20:03:03 - [TEST_CASE][PASSED] - Test Cases/72391_Update Login Page with New Logo/73419_Verify 4 hover feature - Login, Easy, Secure and Flexible: Test Cases/72391_Update Login Page with New Logo/73419_Verify 4 hover feature - Login, Easy, Secure and Flexible
+
+2018-07-10 20:03:04 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-10 20:03:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-10 20:03:06 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://titlepayplus-qa2.fnf.com/' successfully
+
+2018-07-10 20:03:08 - [MESSAGE][PASSED] - Navigate to 'https://titlepayplus-qa2.fnf.com/' successfully
+
+2018-07-10 20:03:08 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page_FNF - TitlePay Plus/a_Log In' is present
+
+2018-07-10 20:03:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_FNF - TitlePay Plus/a_Log In' is present
+
+2018-07-10 20:03:08 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-10 20:03:09 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-10 20:03:09 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page_FNF - TitlePay Plus/Easy Image' is hovered
+
+2018-07-10 20:03:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FNF - TitlePay Plus/Easy Image' is hovered
+
+2018-07-10 20:03:09 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-10 20:03:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\SCREENSHOTS\\73419_1.jpg]]
+
+2018-07-10 20:03:10 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page_FNF - TitlePay Plus/Flexible Image' is hovered
+
+2018-07-10 20:03:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FNF - TitlePay Plus/Flexible Image' is hovered
+
+2018-07-10 20:03:10 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-10 20:03:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\SCREENSHOTS\\73419_2.jpg]]
+
+2018-07-10 20:03:10 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page_FNF - TitlePay Plus/Secure Image' is hovered
+
+2018-07-10 20:03:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FNF - TitlePay Plus/Secure Image' is hovered
+
+2018-07-10 20:03:10 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-10 20:03:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\SCREENSHOTS\\73419_3.jpg]]
+
+2018-07-10 20:03:10 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-10 20:03:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/72391_Update Login Page with New Logo/73420_Verify Links on TPP Screen - AboutUs, TermsofUs, Privacy, ForgotPass, Register" classname="Test Cases/72391_Update Login Page with New Logo/73420_Verify Links on TPP Screen - AboutUs, TermsofUs, Privacy, ForgotPass, Register" status="FAILED">
+         <failure type="FAILED" message="Unable to verify if object 'Object Repository/Page_FNF - TitlePay Plus/a_Register' has attribute 'href' with value 'https://titlepayplus-int.fnf.com/Home/Register' (Root cause: Object 'Object Repository/Page_FNF - TitlePay Plus/a_Register' has attribute 'href' with actual value 'https://titlepayplus-qa2.fnf.com/Home/Register' instead of expected value 'https://titlepayplus-int.fnf.com/Home/Register')"/>
+         <system-out><![CDATA[2018-07-10 20:03:11 - [TEST_CASE][FAILED] - Test Cases/72391_Update Login Page with New Logo/73420_Verify Links on TPP Screen - AboutUs, TermsofUs, Privacy, ForgotPass, Register: Test Cases/72391_Update Login Page with New Logo/73420_Verify Links on TPP Screen - AboutUs, TermsofUs, Privacy, ForgotPass, Register FAILED because (of) Unable to verify if object 'Object Repository/Page_FNF - TitlePay Plus/a_Register' has attribute 'href' with value 'https://titlepayplus-int.fnf.com/Home/Register' (Root cause: Object 'Object Repository/Page_FNF - TitlePay Plus/a_Register' has attribute 'href' with actual value 'https://titlepayplus-qa2.fnf.com/Home/Register' instead of expected value 'https://titlepayplus-int.fnf.com/Home/Register')
+
+2018-07-10 20:03:12 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-10 20:03:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-10 20:03:14 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://titlepayplus-qa2.fnf.com/' successfully
+
+2018-07-10 20:03:16 - [MESSAGE][PASSED] - Navigate to 'https://titlepayplus-qa2.fnf.com/' successfully
+
+2018-07-10 20:03:16 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page_FNF - TitlePay Plus/a_Log In' is present
+
+2018-07-10 20:03:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_FNF - TitlePay Plus/a_Log In' is present
+
+2018-07-10 20:03:16 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_FNF - TitlePay Plus/a_About Us' is clickable
+
+2018-07-10 20:03:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_FNF - TitlePay Plus/a_About Us' is clickable
+
+2018-07-10 20:03:16 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Page_FNF - TitlePay Plus/a_About Us' has attribute 'href' with value 'http://www.fnf.com/pages/about-us.aspx'
+
+2018-07-10 20:03:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_FNF - TitlePay Plus/a_About Us' has attribute 'href' with value 'http://www.fnf.com/pages/about-us.aspx'
+
+2018-07-10 20:03:16 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_FNF - TitlePay Plus/a_Register' is clickable
+
+2018-07-10 20:03:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_FNF - TitlePay Plus/a_Register' is clickable
+
+2018-07-10 20:03:16 - [TEST_STEP][FAILED] - verifyElementAttributeValue: Unable to verify if object 'Object Repository/Page_FNF - TitlePay Plus/a_Register' has attribute 'href' with value 'https://titlepayplus-int.fnf.com/Home/Register' (Root cause: Object 'Object Repository/Page_FNF - TitlePay Plus/a_Register' has attribute 'href' with actual value 'https://titlepayplus-qa2.fnf.com/Home/Register' instead of expected value 'https://titlepayplus-int.fnf.com/Home/Register')
+
+2018-07-10 20:03:17 - [MESSAGE][FAILED] - Object 'Object Repository/Page_FNF - TitlePay Plus/a_Register' has attribute 'href' with actual value 'https://titlepayplus-qa2.fnf.com/Home/Register' instead of expected value 'https://titlepayplus-int.fnf.com/Home/Register'
+[[ATTACHMENT|C:\\Users\\Aileen.Villanueva\\Katalon Studio\\TPP_Iteration18\\Reports\\72391_Update Login Page with New Logo\\20180710_200245\\1531267396860.png]]
+
+2018-07-10 20:03:17 - [MESSAGE][FAILED] - Unable to verify if object 'Object Repository/Page_FNF - TitlePay Plus/a_Register' has attribute 'href' with value 'https://titlepayplus-int.fnf.com/Home/Register' (Root cause: Object 'Object Repository/Page_FNF - TitlePay Plus/a_Register' has attribute 'href' with actual value 'https://titlepayplus-qa2.fnf.com/Home/Register' instead of expected value 'https://titlepayplus-int.fnf.com/Home/Register')
+[[ATTACHMENT|C:\\Users\\Aileen.Villanueva\\Katalon Studio\\TPP_Iteration18\\Reports\\72391_Update Login Page with New Logo\\20180710_200245\\1531267397229.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-10 20:03:11 - [TEST_CASE][FAILED] - Test Cases/72391_Update Login Page with New Logo/73420_Verify Links on TPP Screen - AboutUs, TermsofUs, Privacy, ForgotPass, Register: Test Cases/72391_Update Login Page with New Logo/73420_Verify Links on TPP Screen - AboutUs, TermsofUs, Privacy, ForgotPass, Register FAILED because (of) Unable to verify if object 'Object Repository/Page_FNF - TitlePay Plus/a_Register' has attribute 'href' with value 'https://titlepayplus-int.fnf.com/Home/Register' (Root cause: Object 'Object Repository/Page_FNF - TitlePay Plus/a_Register' has attribute 'href' with actual value 'https://titlepayplus-qa2.fnf.com/Home/Register' instead of expected value 'https://titlepayplus-int.fnf.com/Home/Register')]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-10 20:02:50 - [TEST_SUITE][FAILED] - 72391_Update Login Page with New Logo: Test Cases/72391_Update Login Page with New Logo/73420_Verify Links on TPP Screen - AboutUs, TermsofUs, Privacy, ForgotPass, Register FAILED because (of) Unable to verify if object 'Object Repository/Page_FNF - TitlePay Plus/a_Register' has attribute 'href' with value 'https://titlepayplus-int.fnf.com/Home/Register' (Root cause: Object 'Object Repository/Page_FNF - TitlePay Plus/a_Register' has attribute 'href' with actual value 'https://titlepayplus-qa2.fnf.com/Home/Register' instead of expected value 'https://titlepayplus-int.fnf.com/Home/Register')]]></system-out>
+      <system-err><![CDATA[2018-07-10 20:02:50 - [TEST_SUITE][FAILED] - 72391_Update Login Page with New Logo: Test Cases/72391_Update Login Page with New Logo/73420_Verify Links on TPP Screen - AboutUs, TermsofUs, Privacy, ForgotPass, Register FAILED because (of) Unable to verify if object 'Object Repository/Page_FNF - TitlePay Plus/a_Register' has attribute 'href' with value 'https://titlepayplus-int.fnf.com/Home/Register' (Root cause: Object 'Object Repository/Page_FNF - TitlePay Plus/a_Register' has attribute 'href' with actual value 'https://titlepayplus-qa2.fnf.com/Home/Register' instead of expected value 'https://titlepayplus-int.fnf.com/Home/Register')]]></system-err>
+   </testsuite>
+</testsuites>

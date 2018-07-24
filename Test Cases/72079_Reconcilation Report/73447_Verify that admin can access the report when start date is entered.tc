@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>73447_Verify that admin can access the report when start date is entered</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>22a0c2ca-3bbe-4461-afcc-085d08dcfb5d</testCaseGuid>
+</TestCaseEntity>

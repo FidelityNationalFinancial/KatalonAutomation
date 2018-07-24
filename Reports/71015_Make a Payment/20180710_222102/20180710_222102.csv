@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+71015_Make a Payment,Firefox 61.0,,2018-07-10 22:21:04,2018-07-10 22:21:29,24.690s,FAILED
+,,,,,,
+Test Cases/71015_Make Payment/71275_Verify Pay now button is clickable and user navigate to Payment screen,Firefox 61.0,,2018-07-10 22:21:05,2018-07-10 22:21:29,23.841s,FAILED
+openBrowser,Firefox 61.0,Launch Browser,2018-07-10 22:21:05,2018-07-10 22:21:11,5.619s,PASSED
+navigateToUrl,Firefox 61.0,Navigate to TPP URL ,2018-07-10 22:21:11,2018-07-10 22:21:15,3.738s,PASSED
+waitForElementPresent,Firefox 61.0,Wait for element <Log In> Link,2018-07-10 22:21:15,2018-07-10 22:21:15,0.074s,PASSED
+click,Firefox 61.0,Click <Login> Link,2018-07-10 22:21:15,2018-07-10 22:21:17,2.764s,PASSED
+waitForElementPresent,Firefox 61.0,Wait for Button <Login>,2018-07-10 22:21:17,2018-07-10 22:21:17,0.025s,PASSED
+setText,Firefox 61.0,Enter Username,2018-07-10 22:21:17,2018-07-10 22:21:18,0.160s,PASSED
+setText,Firefox 61.0,Enter Password,2018-07-10 22:21:18,2018-07-10 22:21:18,0.127s,PASSED
+click,Firefox 61.0,Click Button <Login>,2018-07-10 22:21:18,2018-07-10 22:21:18,0.289s,PASSED
+verifyElementPresent,Firefox 61.0,Verify if <Pay Now> Button is Present,2018-07-10 22:21:18,2018-07-10 22:21:28,10.269s,PASSED
+verifyElementNotClickable,Firefox 61.0,Verify if <Pay Now> Button is NOT clickable,2018-07-10 22:21:28,2018-07-10 22:21:29,0.319s,FAILED

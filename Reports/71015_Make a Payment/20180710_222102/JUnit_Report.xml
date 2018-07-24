@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="71015_Make a Payment" time="24" tests="0" failures="1" errors="0">
+   <testsuite name="71015_Make a Payment" tests="0" failures="1" errors="0" time="24" timestamp="2018-07-10 22:21:04" hostname="Aileen.Villanueva - FNFCORPTECLP521.fnfglobal.local" id="Test Suites/71015_Make a Payment">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Aileen.Villanueva\\Katalon Studio\\TPP_Iteration18\\Reports\\71015_Make a Payment\\20180710_222102"/>
+         <property name="logFiles" value="C:\\Users\\Aileen.Villanueva\\Katalon Studio\\TPP_Iteration18\\Reports\\71015_Make a Payment\\20180710_222102\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Aileen.Villanueva\\Katalon Studio\\TPP_Iteration18\\Reports\\71015_Make a Payment\\20180710_222102\\1531275688790.png, C:\\Users\\Aileen.Villanueva\\Katalon Studio\\TPP_Iteration18\\Reports\\71015_Make a Payment\\20180710_222102\\1531275688941.png"/>
+         <property name="hostName" value="Aileen.Villanueva - FNFCORPTECLP521.fnfglobal.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Firefox 61.0"/>
+         <property name="hostAddress" value="10.36.200.250"/>
+         <property name="sessionId" value="7a2df39f-5d5b-4cc2-80a3-81fbe3135560"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/71015_Make Payment/71275_Verify Pay now button is clickable and user navigate to Payment screen" classname="Test Cases/71015_Make Payment/71275_Verify Pay now button is clickable and user navigate to Payment screen" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/Page_FNF - TitlePay Plus (Invoices)/button_Pay Now' to be NOT clickable (Root cause: Object 'Object Repository/Page_FNF - TitlePay Plus (Invoices)/button_Pay Now' is clickable)"/>
+         <system-out><![CDATA[2018-07-10 22:21:05 - [TEST_CASE][FAILED] - Test Cases/71015_Make Payment/71275_Verify Pay now button is clickable and user navigate to Payment screen: Test Cases/71015_Make Payment/71275_Verify Pay now button is clickable and user navigate to Payment screen FAILED because (of) Unable to verify object 'Object Repository/Page_FNF - TitlePay Plus (Invoices)/button_Pay Now' to be NOT clickable (Root cause: Object 'Object Repository/Page_FNF - TitlePay Plus (Invoices)/button_Pay Now' is clickable)
+
+2018-07-10 22:21:05 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-10 22:21:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-10 22:21:11 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://titlepayplus-qa2.fnf.com/' successfully
+
+2018-07-10 22:21:15 - [MESSAGE][PASSED] - Navigate to 'https://titlepayplus-qa2.fnf.com/' successfully
+
+2018-07-10 22:21:15 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page_FNF - TitlePay Plus/a_Log In' is present
+
+2018-07-10 22:21:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_FNF - TitlePay Plus/a_Log In' is present
+
+2018-07-10 22:21:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_FNF - TitlePay Plus (Invoices)/a_Log In' is clicked on
+
+2018-07-10 22:21:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FNF - TitlePay Plus (Invoices)/a_Log In' is clicked on
+
+2018-07-10 22:21:17 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page_FNTG Login/button_Log In' is present
+
+2018-07-10 22:21:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_FNTG Login/button_Log In' is present
+
+2018-07-10 22:21:17 - [TEST_STEP][PASSED] - setText: Text 'Tonya@tpp.com' is set on object 'Object Repository/Page_FNTG Login/input_username'
+
+2018-07-10 22:21:18 - [MESSAGE][PASSED] - Text 'Tonya@tpp.com' is set on object 'Object Repository/Page_FNTG Login/input_username'
+
+2018-07-10 22:21:18 - [TEST_STEP][PASSED] - setText: Text 'Agent001' is set on object 'Object Repository/Page_FNTG Login/input_password'
+
+2018-07-10 22:21:18 - [MESSAGE][PASSED] - Text 'Agent001' is set on object 'Object Repository/Page_FNTG Login/input_password'
+
+2018-07-10 22:21:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_FNTG Login/button_Log In' is clicked on
+
+2018-07-10 22:21:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FNTG Login/button_Log In' is clicked on
+
+2018-07-10 22:21:18 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_FNF - TitlePay Plus (Invoices)/button_Pay Now' is present
+
+2018-07-10 22:21:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_FNF - TitlePay Plus (Invoices)/button_Pay Now' is present
+
+2018-07-10 22:21:28 - [TEST_STEP][FAILED] - verifyElementNotClickable: Unable to verify object 'Object Repository/Page_FNF - TitlePay Plus (Invoices)/button_Pay Now' to be NOT clickable (Root cause: Object 'Object Repository/Page_FNF - TitlePay Plus (Invoices)/button_Pay Now' is clickable)
+
+2018-07-10 22:21:28 - [MESSAGE][FAILED] - Object 'Object Repository/Page_FNF - TitlePay Plus (Invoices)/button_Pay Now' is clickable
+[[ATTACHMENT|C:\\Users\\Aileen.Villanueva\\Katalon Studio\\TPP_Iteration18\\Reports\\71015_Make a Payment\\20180710_222102\\1531275688790.png]]
+
+2018-07-10 22:21:29 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_FNF - TitlePay Plus (Invoices)/button_Pay Now' to be NOT clickable (Root cause: Object 'Object Repository/Page_FNF - TitlePay Plus (Invoices)/button_Pay Now' is clickable)
+[[ATTACHMENT|C:\\Users\\Aileen.Villanueva\\Katalon Studio\\TPP_Iteration18\\Reports\\71015_Make a Payment\\20180710_222102\\1531275688941.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-10 22:21:05 - [TEST_CASE][FAILED] - Test Cases/71015_Make Payment/71275_Verify Pay now button is clickable and user navigate to Payment screen: Test Cases/71015_Make Payment/71275_Verify Pay now button is clickable and user navigate to Payment screen FAILED because (of) Unable to verify object 'Object Repository/Page_FNF - TitlePay Plus (Invoices)/button_Pay Now' to be NOT clickable (Root cause: Object 'Object Repository/Page_FNF - TitlePay Plus (Invoices)/button_Pay Now' is clickable)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-10 22:21:04 - [TEST_SUITE][FAILED] - 71015_Make a Payment: Test Cases/71015_Make Payment/71275_Verify Pay now button is clickable and user navigate to Payment screen FAILED because (of) Unable to verify object 'Object Repository/Page_FNF - TitlePay Plus (Invoices)/button_Pay Now' to be NOT clickable (Root cause: Object 'Object Repository/Page_FNF - TitlePay Plus (Invoices)/button_Pay Now' is clickable)]]></system-out>
+      <system-err><![CDATA[2018-07-10 22:21:04 - [TEST_SUITE][FAILED] - 71015_Make a Payment: Test Cases/71015_Make Payment/71275_Verify Pay now button is clickable and user navigate to Payment screen FAILED because (of) Unable to verify object 'Object Repository/Page_FNF - TitlePay Plus (Invoices)/button_Pay Now' to be NOT clickable (Root cause: Object 'Object Repository/Page_FNF - TitlePay Plus (Invoices)/button_Pay Now' is clickable)]]></system-err>
+   </testsuite>
+</testsuites>

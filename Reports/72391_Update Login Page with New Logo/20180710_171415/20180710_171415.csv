@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+72391_Update Login Page with New Logo,Firefox 61.0,,2018-07-10 17:14:17,2018-07-10 17:14:44,27.570s,FAILED
+,,,,,,
+Test Cases/72391_Update Login Page with New Logo/73417_73418_Verify Invoiking of TPP URL will display new TPP login page,Firefox 61.0,,2018-07-10 17:14:17,2018-07-10 17:14:26,8.933s,FAILED
+openBrowser,Firefox 61.0,Launch Browser,2018-07-10 17:14:18,2018-07-10 17:14:23,5.658s,PASSED
+navigateToUrl,Firefox 61.0,Navigate to TPP URL,2018-07-10 17:14:23,2018-07-10 17:14:26,2.311s,PASSED
+waitForElementPresent,Firefox 61.0,Wait for Element <LOG IN> to be present,2018-07-10 17:14:26,2018-07-10 17:14:26,0.088s,PASSED
+acceptAlert,Firefox 61.0,,2018-07-10 17:14:26,2018-07-10 17:14:26,0.387s,FAILED
+,,,,,,
+"Test Cases/72391_Update Login Page with New Logo/73419_Verify 4 hover feature - Login, Easy, Secure and Flexible",Firefox 61.0,,2018-07-10 17:14:26,2018-07-10 17:14:36,9.814s,PASSED
+openBrowser,Firefox 61.0,Launch Browser,2018-07-10 17:14:27,2018-07-10 17:14:31,4.716s,PASSED
+navigateToUrl,Firefox 61.0,Navigate to TPP URL,2018-07-10 17:14:31,2018-07-10 17:14:34,2.248s,PASSED
+waitForElementPresent,Firefox 61.0,Wait for Element <LOG IN> to be present,2018-07-10 17:14:34,2018-07-10 17:14:34,0.038s,PASSED
+maximizeWindow,Firefox 61.0,Maximize Window,2018-07-10 17:14:34,2018-07-10 17:14:34,0.137s,PASSED
+mouseOver,Firefox 61.0,Mouse Over to Easy Image,2018-07-10 17:14:34,2018-07-10 17:14:34,0.184s,PASSED
+takeScreenshot,Firefox 61.0,Take Snapshot 73417_1,2018-07-10 17:14:34,2018-07-10 17:14:34,0.224s,PASSED
+mouseOver,Firefox 61.0,Mouse Over to Flexible Image\r\n,2018-07-10 17:14:34,2018-07-10 17:14:34,0.148s,PASSED
+takeScreenshot,Firefox 61.0,Take Snapshot 73417_1,2018-07-10 17:14:34,2018-07-10 17:14:35,0.274s,PASSED
+mouseOver,Firefox 61.0,Mouse Over to Secure Image,2018-07-10 17:14:35,2018-07-10 17:14:35,0.153s,PASSED
+takeScreenshot,Firefox 61.0,Take Snapshot 73417_1,2018-07-10 17:14:35,2018-07-10 17:14:35,0.306s,PASSED
+closeBrowser,Firefox 61.0,Close Browser,2018-07-10 17:14:35,2018-07-10 17:14:36,0.807s,PASSED
+,,,,,,
+"Test Cases/72391_Update Login Page with New Logo/73420_Verify Links on TPP Screen - AboutUs, TermsofUs, Privacy, ForgotPass, Register",Firefox 61.0,,2018-07-10 17:14:36,2018-07-10 17:14:44,8.258s,PASSED
+openBrowser,Firefox 61.0,,2018-07-10 17:14:36,2018-07-10 17:14:41,4.690s,PASSED
+navigateToUrl,Firefox 61.0,,2018-07-10 17:14:41,2018-07-10 17:14:43,2.306s,PASSED
+waitForElementPresent,Firefox 61.0,,2018-07-10 17:14:43,2018-07-10 17:14:43,0.035s,PASSED
+verifyElementClickable,Firefox 61.0,,2018-07-10 17:14:43,2018-07-10 17:14:43,0.053s,PASSED
+verifyElementAttributeValue,Firefox 61.0,,2018-07-10 17:14:43,2018-07-10 17:14:44,0.091s,PASSED
+verifyElementClickable,Firefox 61.0,,2018-07-10 17:14:44,2018-07-10 17:14:44,0.029s,PASSED
+verifyElementAttributeValue,Firefox 61.0,,2018-07-10 17:14:44,2018-07-10 17:14:44,0.045s,PASSED
+verifyElementClickable,Firefox 61.0,,2018-07-10 17:14:44,2018-07-10 17:14:44,0.023s,PASSED
+verifyElementAttributeValue,Firefox 61.0,,2018-07-10 17:14:44,2018-07-10 17:14:44,0.038s,PASSED
+verifyElementClickable,Firefox 61.0,,2018-07-10 17:14:44,2018-07-10 17:14:44,0.027s,PASSED
+verifyElementAttributeValue,Firefox 61.0,,2018-07-10 17:14:44,2018-07-10 17:14:44,0.043s,PASSED
+takeScreenshot,Firefox 61.0,,2018-07-10 17:14:44,2018-07-10 17:14:44,0.135s,PASSED
+closeBrowser,Firefox 61.0,,2018-07-10 17:14:44,2018-07-10 17:14:44,0.366s,PASSED

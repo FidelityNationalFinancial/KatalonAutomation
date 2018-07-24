@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+72391_Update Login Page with New Logo,Chrome 67.0.3396.99,,2018-07-10 16:08:43,2018-07-10 16:09:13,30.890s,PASSED
+,,,,,,
+"Test Cases/73419_Verify 4 hover feature - Login, Easy, Secure and Flexible",Chrome 67.0.3396.99,,2018-07-10 16:08:43,2018-07-10 16:09:13,30.315s,PASSED
+openBrowser,Chrome 67.0.3396.99,Launch Browser,2018-07-10 16:08:44,2018-07-10 16:08:47,3.696s,PASSED
+navigateToUrl,Chrome 67.0.3396.99,Navigate to TPP URL,2018-07-10 16:08:47,2018-07-10 16:08:51,3.397s,PASSED
+waitForElementPresent,Chrome 67.0.3396.99,Wait for Element <LOG IN> to be present,2018-07-10 16:08:51,2018-07-10 16:08:51,0.091s,PASSED
+mouseOver,Chrome 67.0.3396.99,,2018-07-10 16:08:51,2018-07-10 16:08:51,0.116s,PASSED
+takeScreenshot,Chrome 67.0.3396.99,Take Snapshot 73417_1,2018-07-10 16:08:51,2018-07-10 16:08:51,0.451s,PASSED
+verifyElementAttributeValue,Chrome 67.0.3396.99,,2018-07-10 16:08:51,2018-07-10 16:09:12,20.488s,PASSED
+closeBrowser,Chrome 67.0.3396.99,Close Browser,2018-07-10 16:09:12,2018-07-10 16:09:13,1.622s,PASSED

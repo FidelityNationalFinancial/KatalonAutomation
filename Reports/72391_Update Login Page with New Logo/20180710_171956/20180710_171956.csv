@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+72391_Update Login Page with New Logo,Firefox 61.0,,2018-07-10 17:19:58,2018-07-10 17:20:29,30.670s,FAILED
+,,,,,,
+Test Cases/72391_Update Login Page with New Logo/73417_73418_Verify Invoiking of TPP URL will display new TPP login page,Firefox 61.0,,2018-07-10 17:19:59,2018-07-10 17:20:09,10.080s,FAILED
+openBrowser,Firefox 61.0,Launch Browser,2018-07-10 17:19:59,2018-07-10 17:20:06,6.655s,PASSED
+navigateToUrl,Firefox 61.0,Navigate to TPP URL,2018-07-10 17:20:06,2018-07-10 17:20:08,2.167s,PASSED
+waitForElementPresent,Firefox 61.0,Wait for Element <LOG IN> to be present,2018-07-10 17:20:08,2018-07-10 17:20:08,0.143s,PASSED
+acceptAlert,Firefox 61.0,,2018-07-10 17:20:08,2018-07-10 17:20:09,0.456s,FAILED
+,,,,,,
+"Test Cases/72391_Update Login Page with New Logo/73419_Verify 4 hover feature - Login, Easy, Secure and Flexible",Firefox 61.0,,2018-07-10 17:20:09,2018-07-10 17:20:19,10.205s,PASSED
+openBrowser,Firefox 61.0,Launch Browser,2018-07-10 17:20:09,2018-07-10 17:20:14,5.052s,PASSED
+navigateToUrl,Firefox 61.0,Navigate to TPP URL,2018-07-10 17:20:14,2018-07-10 17:20:17,3.051s,PASSED
+waitForElementPresent,Firefox 61.0,Wait for Element <LOG IN> to be present,2018-07-10 17:20:17,2018-07-10 17:20:17,0.035s,PASSED
+maximizeWindow,Firefox 61.0,Maximize Window,2018-07-10 17:20:17,2018-07-10 17:20:17,0.069s,PASSED
+mouseOver,Firefox 61.0,Mouse Over to Easy Image,2018-07-10 17:20:17,2018-07-10 17:20:18,0.231s,PASSED
+takeScreenshot,Firefox 61.0,Take Snapshot 73417_1,2018-07-10 17:20:18,2018-07-10 17:20:18,0.226s,PASSED
+mouseOver,Firefox 61.0,Mouse Over to Flexible Image\r\n,2018-07-10 17:20:18,2018-07-10 17:20:18,0.163s,PASSED
+takeScreenshot,Firefox 61.0,Take Snapshot 73417_1,2018-07-10 17:20:18,2018-07-10 17:20:18,0.169s,PASSED
+mouseOver,Firefox 61.0,Mouse Over to Secure Image,2018-07-10 17:20:18,2018-07-10 17:20:18,0.131s,PASSED
+takeScreenshot,Firefox 61.0,Take Snapshot 73417_1,2018-07-10 17:20:18,2018-07-10 17:20:19,0.164s,PASSED
+closeBrowser,Firefox 61.0,Close Browser,2018-07-10 17:20:19,2018-07-10 17:20:19,0.402s,PASSED
+,,,,,,
+"Test Cases/72391_Update Login Page with New Logo/73420_Verify Links on TPP Screen - AboutUs, TermsofUs, Privacy, ForgotPass, Register",Firefox 61.0,,2018-07-10 17:20:19,2018-07-10 17:20:29,9.899s,PASSED
+openBrowser,Firefox 61.0,Launch Browser,2018-07-10 17:20:19,2018-07-10 17:20:24,4.236s,PASSED
+navigateToUrl,Firefox 61.0,Navigate to TPP URL,2018-07-10 17:20:24,2018-07-10 17:20:28,4.272s,PASSED
+waitForElementPresent,Firefox 61.0,Wait for <Log In> button to be present,2018-07-10 17:20:28,2018-07-10 17:20:28,0.034s,PASSED
+verifyElementClickable,Firefox 61.0,Validate if <About Us> Link is Clickable,2018-07-10 17:20:28,2018-07-10 17:20:28,0.050s,PASSED
+verifyElementAttributeValue,Firefox 61.0,Validate that <About Us> Link has href attribute of: http://www.fnf.com/pages/about-us.aspx,2018-07-10 17:20:28,2018-07-10 17:20:28,0.092s,PASSED
+verifyElementClickable,Firefox 61.0,Validate that <Register> button is clickable,2018-07-10 17:20:28,2018-07-10 17:20:28,0.029s,PASSED
+verifyElementAttributeValue,Firefox 61.0,Validate that <Register> Link has href attribute of: https://titlepayplus-int.fnf.com/Home/Register,2018-07-10 17:20:28,2018-07-10 17:20:28,0.066s,PASSED
+verifyElementClickable,Firefox 61.0,Validate that <Privacy Notice> is Clickable\r\n,2018-07-10 17:20:28,2018-07-10 17:20:28,0.030s,PASSED
+verifyElementAttributeValue,Firefox 61.0,Validate that <Privacy Notice> has href attribute of: http://www.fnf.com/privacy,2018-07-10 17:20:28,2018-07-10 17:20:28,0.061s,PASSED
+verifyElementClickable,Firefox 61.0,Validate <Terms of Use> is Clickable,2018-07-10 17:20:28,2018-07-10 17:20:28,0.037s,PASSED
+verifyElementAttributeValue,Firefox 61.0,Validate that <Terms of Use> has href attribute of: http://www.fnf.com/termsofuse,2018-07-10 17:20:28,2018-07-10 17:20:28,0.042s,PASSED
+takeScreenshot,Firefox 61.0,Take a Snapshot 73420_1.jpg,2018-07-10 17:20:28,2018-07-10 17:20:28,0.181s,PASSED
+closeBrowser,Firefox 61.0,Close Browser,2018-07-10 17:20:28,2018-07-10 17:20:29,0.407s,PASSED

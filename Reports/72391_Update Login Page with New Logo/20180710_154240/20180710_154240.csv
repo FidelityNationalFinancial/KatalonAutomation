@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+72391_Update Login Page with New Logo,Chrome 67.0.3396.99,,2018-07-10 15:42:42,2018-07-10 15:42:57,14.964s,PASSED
+,,,,,,
+Test Cases/73417_Verify Invoiking of TPP URL will display new TPP login page,Chrome 67.0.3396.99,,2018-07-10 15:42:43,2018-07-10 15:42:57,14.443s,PASSED
+openBrowser,Chrome 67.0.3396.99,Launch Browser,2018-07-10 15:42:43,2018-07-10 15:42:47,3.791s,PASSED
+navigateToUrl,Chrome 67.0.3396.99,Navigate to TPP URL,2018-07-10 15:42:47,2018-07-10 15:42:52,5.030s,PASSED
+waitForElementPresent,Chrome 67.0.3396.99,Wait for Element <LOG IN> to be present,2018-07-10 15:42:52,2018-07-10 15:42:52,0.108s,PASSED
+takeScreenshot,Chrome 67.0.3396.99,Take Snapshot 73417_1,2018-07-10 15:42:52,2018-07-10 15:42:53,0.294s,PASSED
+click,Chrome 67.0.3396.99,Click on <LOG IN> link,2018-07-10 15:42:53,2018-07-10 15:42:56,3.526s,PASSED
+verifyElementText,Chrome 67.0.3396.99,"Verify Text \""Welcome to FNTG Agency Suite of Application\"" is present on the page after load",2018-07-10 15:42:56,2018-07-10 15:42:56,0.083s,PASSED
+takeScreenshot,Chrome 67.0.3396.99,Take Snapshot 73417_2,2018-07-10 15:42:56,2018-07-10 15:42:56,0.316s,PASSED
+closeBrowser,Chrome 67.0.3396.99,Close Browser,2018-07-10 15:42:56,2018-07-10 15:42:57,0.805s,PASSED
