@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>73464_Validate Customer Ref was added to history details using Admin Role with a total of five columns</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>df9e1883-9408-419b-8d4f-e22b3225b640</testCaseGuid>
-</TestCaseEntity>
