@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>73417_73418_Verify Invoking of TPP URL will display new TPP login page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>92bfa4eb-4ec4-4435-8ca6-d2984408e14d</testCaseGuid>
+   <variable>
+      <defaultValue>'https://titlepayplus-qa2.fnf.com/'</defaultValue>
+      <description></description>
+      <id>41067953-ebca-4a9f-bf80-f42c53f6cf56</id>
+      <masked>false</masked>
+      <name>varAppLink</name>
+   </variable>
+</TestCaseEntity>
