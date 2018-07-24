@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that finance user can export the report to CSV file format correctly. Also verify if report can be exported correctly as per the date range entered.</description>
+   <name>73444_Verify that finance user can export report to CSV</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dfdadecb-db28-44bb-a774-ed1569a02f18</testCaseGuid>
+</TestCaseEntity>

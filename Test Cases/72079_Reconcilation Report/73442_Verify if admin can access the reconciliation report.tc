@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if super Admin can access the reconciliation report to view the transactions for a particular date range (Start date and End date).</description>
+   <name>73442_Verify if admin can access the reconciliation report</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e3e7c457-c527-48bc-80de-81632bb2f044</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that super admin user can export the report to CSV file format correctly. Also verify if report can be exported correctly as per the date range entered.</description>
+   <name>73445_Verify that admin user can export report</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2686abf1-81e3-4a24-af4b-84e7ab8aec90</testCaseGuid>
+</TestCaseEntity>
