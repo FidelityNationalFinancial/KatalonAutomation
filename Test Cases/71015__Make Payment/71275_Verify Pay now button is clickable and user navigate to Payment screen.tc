@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>71275_Verify Pay now button is clickable and user navigate to Payment screen</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>1a74ed4a-69db-47ab-a304-d403b49789b7</testCaseGuid>
-</TestCaseEntity>
