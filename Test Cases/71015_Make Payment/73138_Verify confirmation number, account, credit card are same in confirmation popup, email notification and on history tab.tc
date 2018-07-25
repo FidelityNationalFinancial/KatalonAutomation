@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>73138_Verify confirmation number, account, credit card are same in confirmation popup, email notification and on history tab</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5701f32f-e178-482b-800e-5ca9c0c5049b</testCaseGuid>
+</TestCaseEntity>
