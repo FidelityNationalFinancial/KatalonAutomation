@@ -53,14 +53,22 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Page_FNTG Login/but
 //WebUI.waitForPageLoad(10)
 
 'Verify if invalid or blocked user enter credential appropriate message should be displayed'
-WebUI.setText(findTestObject('Object Repository/Page_FNTG Login/input_username'), findTestData('Application').getValue(1, 1))
+WebUI.setText(findTestObject('Object Repository/Page_FNTG Login/input_username'), findTestData('Application').getValue(2, 2))
 WebUI.setText(findTestObject('Object Repository/Page_FNTG Login/input_password'), "123")
 WebUI.click(findTestObject('Object Repository/Page_FNTG Login/button_Log In'))
+WebUI.waitForPageLoad(10)
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_FNTG Login/div_Wrong email or password.'), 5)
 
 'Verify when user click on register button navigate to registration page'
 WebUI.click(findTestObject('Object Repository/Page_FNTG Login/button_Register'))
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_FNTG Login/h2_Registration'), 5)
+WebUI.click(findTestObject('Object Repository/a_Login'))
+
+'Verify when user click on forgot password, navigate to forgot password screen'
+WebUI.click(findTestObject('Object Repository/button_Forgot Password'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/h2_Reset Your Password'), 5)
+WebUI.click(findTestObject('Object Repository/a_Login'))
+
 
 
 
